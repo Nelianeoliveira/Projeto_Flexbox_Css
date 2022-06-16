@@ -1,0 +1,225 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Fundamentos- justify-content</title>
+    <style>
+        .container {
+            display: flex;
+            flex-flow: row nowrap;
+            border: 1px solid #cacaca;
+            max-width: 500px;
+            margin-bottom: 10px;
+            height: 200px;
+        }
+        
+        .item {
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            line: height 50px;
+        }
+        
+        .flex-start {
+            justify-content: flex-start;
+        }
+        
+        .flex-end {
+            justify-content: flex-end;
+        }
+        
+        .center {
+            justify-content: center;
+        }
+        
+        .space-between {
+            justify-content: space-between;
+        }
+        
+        .space-around {
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Flex-start</p>
+    <section class="container flex-start">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+        </div>
+    </section>]
+    <p>Flex-end</p>
+    <section class="container flex-end">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+        </div>
+    </section>
+    <p>Center</p>
+    <section class="container center">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+
+        </div>
+    </section>
+    <p>Space-between</p>
+    <section class="container space-between">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+
+        </div>
+    </section>
+    <p>Space-around</p>
+    <section class="container space-around">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+
+        </div>
+    </section>
+</body>
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Fundamentos- justify-content</title>
+    <style>
+        .container {
+            display: flex;
+            flex-flow: row nowrap;
+            border: 1px solid #cacaca;
+            max-width: 500px;
+            margin-bottom: 10px;
+            height: 200px;
+        }
+        
+        .item {
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            line: height 50px;
+        }
+        
+        .flex-start {
+            justify-content: flex-start;
+        }
+        
+        .flex-end {
+            justify-content: flex-end;
+        }
+        
+        .center {
+            justify-content: center;
+        }
+        
+        .space-between {
+            justify-content: space-between;
+        }
+        
+        .space-around {
+            justify-content: space-around;
+        }
+        
+        .column {
+            flex-direction: column;
+            min-height: 200;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>row</h1>
+    <p>Flex-start</p>
+    <section class="container flex-start">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+        </div>
+    </section>
+    <p>Flex-end</p>
+    <section class="container flex-end">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+        </div>
+    </section>
+    <p>Center</p>
+    <section class="container center">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+
+        </div>
+    </section>
+    <p>Space-between</p>
+    <section class="container space-between">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+        </div>
+    </section>
+    <p>Space-around</p>
+    <section class="container space-around">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+
+        </div>
+    </section>
+
+    </section>
+    <h1>Column</h1>
+    <p>Flex-start (Column)</p>
+    <section class="container flex-start column">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+
+        </div>
+    </section>
+    <p>Flex-end (Column)</p>
+    <section class="container flex-end column">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+        </div>
+    </section>
+    <p>Center (Column)</p>
+    <section class="container center column">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+        </div>
+    </section>
+    <p>Space-between(Clumn</p>
+    <section class="container space-between column">
+        <div class="item ">1</div>
+        <div class="item ">item 2</div>
+        <div class="item ">outro item</div>
+        </div>
+    </section>
+    </section>
+    <p>Space-around(Column)/p>
+        <section class="container space-around column">
+            <div class="item ">1</div>
+            <div class="item ">item 2</div>
+            <div class="item ">outro item</div>
+            </div>
+        </section>
+</body>
+
+</html>
